@@ -1,23 +1,17 @@
 # Hello World with React and Cloud 9
 
-##### Download this repository
+##### Download the boilerplate using the BreatheCode CLI
 ```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
+$ breathecode start:react
 ```
-
-##### Move all the content outside the react-hello folder
-
-```
-$ mv react-hello/* ./
-$ mv react-hello/.* ./
-$ rmdir react-hello/
-```
-
 ##### and install the npm package:
 ```
 $ npm install
 ```
-That is it! Start coding your ReactJS application.
+
+## That is it! 
+
+Start coding your ReactJS application.
 
 Note: If you ever want to manually install all of this read the [MANUAL.md file.](/MANUAL.md)
 
