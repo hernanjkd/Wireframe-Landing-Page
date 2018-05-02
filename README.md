@@ -1,8 +1,20 @@
 # Hello World with React and Cloud 9
 
+#### Make sure you have node version 8
+```sh
+$ nvm install 8
+$ nvm use 8
+$ node -v
+```
+
 ##### Download the boilerplate using the BreatheCode CLI
 ```
-$ breathecode start:react
+$ npm i @breathecode/breathecode-cli -g
+```
+
+##### Download the boilerplate using the BreatheCode CLI
+```
+$ breathecode start:react -r
 ```
 ##### and install the npm package:
 ```
