@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './img/rigo-baby.jpg';
+import logo from './img/rigo-baby.svg';
 import './App.css';
 
 class App extends Component {
@@ -9,6 +9,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
+          <h2>Get ready to master the most used front-end technologies in the world.</h2>
         </header>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
