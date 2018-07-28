@@ -2,9 +2,7 @@
 
 #### Make sure you have node version 8
 ```sh
-$ nvm install 8
-$ nvm use 8
-$ node -v
+$ nvm i 8
 ```
 
 ##### Download the boilerplate using the BreatheCode CLI
