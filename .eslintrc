@@ -1,5 +1,11 @@
 {
-  "extends": "react-app"
+  parser: "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "env": {
+    "browser": true,
+  },
   "rules": {
     "strict":0,
     "no-unused-vars": 0,
@@ -15,5 +21,6 @@
     }],
     "react/jsx-indent": ["error", 4],
     "react/prop-types": [2]
-  }
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"]
 }
