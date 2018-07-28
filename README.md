@@ -12,7 +12,7 @@ $ npm i @breathecode/breathecode-cli -g
 
 ##### Download the boilerplate using the BreatheCode CLI
 ```
-$ breathecode start:react -r
+$ bc start:react -r
 ```
 ##### and install the npm package:
 ```
