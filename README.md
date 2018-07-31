@@ -7,7 +7,7 @@ $ nvm i 8
 
 ##### Download the boilerplate using the BreatheCode CLI
 ```
-$ npm i @breathecode/breathecode-cli -g
+$ npm i breathecode-cli -g
 ```
 
 ##### Download the boilerplate using the BreatheCode CLI
