@@ -18,7 +18,7 @@ module.exports = {
           use: ['babel-loader', 'eslint-loader']
         },
         {
-          test: /\.scss$/, use: [{
+          test: /\.(css|scss)$/, use: [{
               loader: "style-loader" // creates style nodes from JS strings
           }, {
               loader: "css-loader" // translates CSS into CommonJS
