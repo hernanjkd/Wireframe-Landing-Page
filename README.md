@@ -9,7 +9,7 @@ $ npm i breathecode-cli -g
 
 ##### Download the boilerplate using the BreatheCode CLI
 ```
-$ breathecode start:react-project -r
+$ bc start:react-project -r
 ```
 ##### and install the npm package:
 ```
