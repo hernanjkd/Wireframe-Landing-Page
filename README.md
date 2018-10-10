@@ -28,8 +28,15 @@ Add more files into your, `./src/js/components` or styles folder as you need the
 ## Publish your website! 
 
 This boilerplate is 100% compatible with the free github pages hosting.
-To publish your website you need to push your code to your github repository and run the following command after:
+To publish your website you need to `push your code to your github repository` and run the following command after:
 ```sh
 $ npm run deploy
 ```
-Note: You will need to [configure github pages for the branch gh-pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages)
+
+## Other features
+
+- Automatic Code Formatting: Use of [Prettier](https://prettier.io/) for automatic code identation and formating.
+- Error reporting: Use of [esling](https://eslint.org/) for better error reporting.
+- Hot Deploy: Use of [Webpack Development Server](https://webpack.js.org/configuration/dev-server/) for hot deploy and live reload.
+- One-click publish of the code to github pages.
+- Babel 7 (really fast).
