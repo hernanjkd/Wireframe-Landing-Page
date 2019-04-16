@@ -1,5 +1,5 @@
 # Hello World with React boilerplate
-<p align="center"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
+<p><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
 </p>
 
 This template its similar to create-react-app but is meant for 4Geeks Academy students.
