@@ -2,3 +2,4 @@ tasks:
 - command: npm i breathecode-cli -g
 ports:
   - port: 8080
+    onOpen: open-browser
