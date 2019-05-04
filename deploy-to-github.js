@@ -16,7 +16,7 @@ if (!fs.existsSync(path.resolve(__dirname,'.git'))){
 const origin = remoteOriginUrl.sync();
 if(!origin || origin==''){
     Console.error("No remote origin has been found on this repository");
-    Console.help(`Check your remote by doing: 
+    Console.help(`Check your remote by doing:
 $ git remote get-url origin
 
 Add your remote by doing:
@@ -36,14 +36,15 @@ compiler.run((err, stats) => {
       Console.error("There was an error compiling, review above");
       return;
     }
-    Console.success("Your code compiled successfully, proceding to deploy...");
+    Console.info("Your code compiled successfully, proceding to deploy...");
     ghpages.publish('public', function(err) {
         if(err){
             console.error(err);
             Console.error("There was an error publishing your website");
             return;
-        } 
+        }
         //https://<github_user>.github.io/<repository-name>
         Console.success(`Your website has been deployed successfully here: https://${repository["owner"]}.github.io/${repository["name"]}/`);
+        Console.info(`Changes on your deployed website take 10 min aprox to show, please be patient. Happy coding!`);
     });
 });

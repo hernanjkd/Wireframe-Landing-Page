@@ -3,6 +3,7 @@
 
 # track this file .gitignore (i.e. do NOT ignore it)
 !.gitignore
+!.gitpod.yml
 !.github
 php_errorlog
 .log
