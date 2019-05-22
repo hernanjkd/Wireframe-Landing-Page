@@ -1,13 +1,32 @@
 @import "~bootstrap/scss/bootstrap.scss";
+.coName {
+    font-family: 'Kavoon', cursive;
+}
+.innerSearch {
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar {
+    background-color: #ff9a60;
+}
+.navbar-brand {
+    font-size: 2rem;
+}
+.innerSearch {
+    border-color: #a52c00;
+}
+.btn {
+    border-color: #a52c00;
+    background: #a52c00;
+}
 
-/* 
+/*
 
     You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
+
+
+    ...Or you can use the import command to include
     other sylesheets into your bunde as well, e.j:
-    
+
     import 'relative/path/to/stylesheet.scss';
 
 */
