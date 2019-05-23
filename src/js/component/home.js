@@ -1,7 +1,11 @@
 import React from "react";
 import CarouselReact from "./carousel-react";
-import Footer from "./footer.js";
 import Nav from "./nav-bar.js";
+import Carousel from "./carousel.js";
+import Card from "./card.js";
+import About from "./about.js";
+
+import Footer from "./footer.js";
 
 class Home extends React.Component {
 	componentDidMount() {
@@ -14,6 +18,9 @@ class Home extends React.Component {
 				<Nav />
 				<CarouselReact />
 				<Footer />
+				<Carousel />
+				<Card />
+				<About />
 			</div>
 		);
 	}
