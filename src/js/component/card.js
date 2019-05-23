@@ -1,7 +1,7 @@
 import React from "react";
 import ShopCrystals from "../../img/shopcrystals.jpg";
 
-class CardShop extends React.Component {
+class Card extends React.Component {
 	render() {
 		return (
 			<div className="row">
@@ -18,8 +18,6 @@ class CardShop extends React.Component {
 						</p>
 					</div>
 				</div>
-			</div>
-            <div className="row">
 				<div className="card justify-content-center">
 					<img
 						className="card-img-top"
@@ -36,4 +34,4 @@ class CardShop extends React.Component {
 		);
 	}
 }
-export default CardShop;
+export default Card;
