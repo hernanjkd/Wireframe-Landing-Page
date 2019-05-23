@@ -1,8 +1,8 @@
 import React from "react";
 import Nav from "./nav-bar.js";
 import Carousel from "./carousel.js";
-import Card from "./card.js";
 import About from "./about.js";
+import CardMap from "./cardmap.js";
 
 import Footer from "./footer.js";
 
@@ -16,7 +16,9 @@ class Home extends React.Component {
 			<div>
 				<Nav />
 				<Carousel />
-				<Card />
+				<div className="row">
+					<CardMap />
+				</div>
 				<About />
 			</div>
 		);

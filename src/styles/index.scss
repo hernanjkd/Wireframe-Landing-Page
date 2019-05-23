@@ -35,6 +35,50 @@
     text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em gray;
 }
 
+.card {
+    width: 18rem;
+}
+.card-text {
+    color: white;
+}
+.card-body {
+    background: #a52c00;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #8c0252;
+}
+
+.card:hover .overlay {
+  opacity: 0.5;
+}
+
+.text {
+  opacity: 1.5;
+  color: white;
+  font-family: 'Kavoon', cursive;
+  font-size: 42px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.footer a {
+    color: white;
+}
 .footer {
     text-align: center;
     background: #ff9a60;
@@ -44,17 +88,4 @@
     height: 75px;
     margin-top: -75px;
     border-top: 1px solid #a52c00;
-}
-.card {
-    width: 18rem;
-}
-.card-text {
-    color: white;
-}
-.card-body {
-    background: #8c0252;
-}
-
-.footer a {
-    color: white;
 }
