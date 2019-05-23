@@ -26,7 +26,7 @@ function CardMap() {
 	];
 	return cardLayout.map((page, index) => {
 		return (
-			<div className="col-md-4" key={index}>
+			<div className="col-md-4 mt-5" key={index}>
 				<div className="card justify-content-left mx-5 ">
 					<img className="card-img-top" src={page.imgUrl} alt="..." />
 					<div className="overlay">
