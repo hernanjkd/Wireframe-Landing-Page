@@ -1,13 +1,33 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+.jumbo {
+    width: 100%;
+    height: 400px;
+    background: black;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.jumboAlt {
+    font-size: 100px;
+    color: white;
+    position: relative;
+    top: -200px;
+    margin-left: 70%;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em gray;
+}
 
-*/
+.footer {
+    text-align: center;
+    background: lightgray;
+    padding-top: 10px;
+    position: absolute;
+    top: 100%;
+    height: 100px;
+    margin-top: -100px;
+}
+.footer a {
+    color: gray;
+}
+.copyright {
+    font-size: 12px;
+    padding-top: 20px;
+}
