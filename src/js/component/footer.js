@@ -33,11 +33,6 @@ class Footer extends Component {
 					</div>
 					<div className="col-3" />
 				</div>
-				<div className="row">
-					<div className="col-12 copyright">
-						Crystal Vibes &copy; All right reserved
-					</div>
-				</div>
 			</div>
 		);
 	}

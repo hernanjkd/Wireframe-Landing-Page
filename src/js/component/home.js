@@ -1,6 +1,7 @@
 import React from "react";
 import Carousel from "./carousel.js";
 import Footer from "./footer.js";
+import Nav from "./nav-bar.js";
 
 class Home extends React.Component {
 	componentDidMount() {
@@ -10,6 +11,7 @@ class Home extends React.Component {
 	render() {
 		return (
 			<div>
+				<Nav />
 				<Carousel />
 				<Footer />
 			</div>
