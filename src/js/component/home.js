@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel from "./carousel.js";
+import CarouselReact from "./carousel-react";
 import Footer from "./footer.js";
 import Nav from "./nav-bar.js";
 
@@ -12,7 +12,7 @@ class Home extends React.Component {
 		return (
 			<div>
 				<Nav />
-				<Carousel />
+				<CarouselReact />
 				<Footer />
 			</div>
 		);
