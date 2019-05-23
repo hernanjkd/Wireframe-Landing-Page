@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel from "react-bootstrap/Carousel";
+import Carousel from "./carousel2.js";
 import Chrysocolla from "../../img/chrysocolla.jpg";
 import Amethyst from "../../img/amethyst.jpg";
 import Quartz from "../../img/quartz.png";
