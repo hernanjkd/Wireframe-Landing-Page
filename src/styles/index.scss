@@ -45,10 +45,16 @@
     margin-top: -75px;
     border-top: 1px solid #a52c00;
 }
-.footer a {
+.card {
+    width: 18rem;
+}
+.card-text {
     color: white;
 }
-.copyright {
-    font-size: 12px;
-    padding-top: 20px;
+.card-body {
+    background: #8c0252;
+}
+
+.footer a {
+    color: white;
 }
