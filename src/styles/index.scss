@@ -1,4 +1,5 @@
 @import "~bootstrap/scss/bootstrap.scss";
+
 .coName {
     font-family: 'Kavoon', cursive;
 }
@@ -39,12 +40,12 @@
     text-align: center;
     background: #ff9a60;
     padding-top: 10px;
-    position: absolute;
-    top: 100%;
+    width: 100%;
     height: 75px;
-    margin-top: -75px;
     border-top: 1px solid #a52c00;
 }
+.footer i {
+    color: white;
 .card {
     width: 18rem;
 }

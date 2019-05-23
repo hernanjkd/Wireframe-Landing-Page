@@ -1,4 +1,5 @@
 import React from "react";
+import CarouselReact from "./carousel-react";
 import Nav from "./nav-bar.js";
 import Carousel from "./carousel.js";
 import Card from "./card.js";
@@ -15,6 +16,8 @@ class Home extends React.Component {
 		return (
 			<div>
 				<Nav />
+				<CarouselReact />
+				<Footer />
 				<Carousel />
 				<Card />
 				<About />
