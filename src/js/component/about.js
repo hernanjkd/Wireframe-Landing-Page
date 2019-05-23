@@ -64,8 +64,13 @@ class About extends React.Component {
 											&times;
 										</button>
 										<h6 className="modal-title">
-											Address: 5555 Miami Ave., Miami FL
-											33123, ph. (305)555-5555
+											<p>
+												{" "}
+												Address: 5555 Miami Ave., Miami
+												FL 33123,
+												<hr className="my-4" />
+												phone: (305)555-5555
+											</p>
 										</h6>
 									</div>
 								</div>
